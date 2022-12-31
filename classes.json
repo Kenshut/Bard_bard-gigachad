@@ -1,0 +1,49 @@
+[
+  {
+    "type": "npc_class",
+    "id": "ks_class_Bard",
+    "name": "Бард Гигачад",
+    "job_description": "Я бард Гигачад и я создаю искусство.",
+	"common": false,
+    "bonus_str": { "rng": [ 4, 6 ] },
+    "bonus_dex": { "rng": [ 4, 6 ] },
+    "bonus_int": { "rng": [ 4, 6 ] },
+	"skills": [
+    {
+      "skill": "ALL",
+      "level": { "mul": [ { "one_in": 3 }, { "sum": [ { "dice": [ 2, 2 ] }, { "constant": -2 }, { "one_in": 4 } ] } ] }
+	},
+	{ "skill": "speech", "bonus": { "rng": [ 7, 10 ] } }
+  ],
+     "bonus_per": { "rng": [ 4, 6 ] },
+    "worn_override": "REFUGEE_Alonso_worn",
+    "carry_override": "REFUGEE_Alonso_carried",
+    "weapon_override": "REFUGEE_Alonso_wield",
+    "traits": [ { "trait": "PRETTY" }]
+  },
+    {
+    "type": "item_group",
+    "id": "REFUGEE_Alonso_worn",
+    "subtype": "collection",
+    "entries": [
+      { "item": "boxer_briefs" },
+      { "item": "socks" },
+      { "item": "tshirt" },
+      { "item": "jacket_leather" },
+      { "item": "fancy_sunglasses" },
+      { "item": "dress_shoes" }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "REFUGEE_Alonso_carried",
+    "subtype": "collection",
+    "entries": [ { "item": "mag_porn" }, { "item": "vibrator" }, { "item": "condom" } ]
+  },
+  {
+    "type": "item_group",
+    "id": "REFUGEE_Alonso_wield",
+    "subtype": "collection",
+    "entries": [ { "item": "cudgel" } ]
+  }
+]

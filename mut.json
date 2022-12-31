@@ -1,0 +1,11 @@
+  [
+   {
+    "type": "mutation",
+    "id": "ks_text",
+    "name": "первый стих",
+    "points": 0,
+    "description": "вы достойны услышать первый стих",
+    "valid": false,
+    "purifiable": false
+   }
+  ]

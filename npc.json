@@ -1,0 +1,16 @@
+[
+  {
+    "type": "npc",
+    "id": "ks_npc_Bard",
+    "//": "Бард гигачад.",
+	"name_unique": "ИС ШОТА",
+    "gender": "male",
+    "name_suffix": "Бард гигачад",
+    "class": "ks_class_Bard",
+    "attitude": 0,
+    "mission": 7,
+    "mission_offered": "MISSION_RESCUE_DOG1",
+    "chat": "ks_talk_bard",
+    "faction": "ks_faction_Bard"
+  }
+]

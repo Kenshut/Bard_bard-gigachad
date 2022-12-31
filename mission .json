@@ -1,0 +1,28 @@
+[  {
+    "id": "MISSION_RESCUE_DOG1",
+    "type": "mission_definition",
+    "name": { "str": "найти удачу " },
+    "goal": "MGOAL_FIND_MONSTER",
+    "difficulty": 3,
+    "value": 100000,
+    "place": "near_town",
+    "start": "place_dog",
+    "origins": [ "ORIGIN_OPENER_NPC" ],
+	    "end": {
+      "effect": [
+      { "u_add_trait": "ks_text" }
+      ]
+    },
+    "dialogue": {
+      "describe": "найди удачу",
+      "offer": "I найди удачу",
+      "accepted": "удачи тебе",
+      "rejected": "Please, think of my poor little puppy!",
+      "advice": "возьми свисток, он помоет позвать удачу, если она далёко убежит.",
+      "inquire": "Have you found my dog yet?",
+      "success": "как и обещал, теперь Я могу расказать тебе стих Безумцы и люди",
+      "success_lie": "What?!  You're lying, I can tell!  Ugh, forget it!",
+      "failure": "Oh no!  My poor puppy…"
+    }
+  }
+  ]
