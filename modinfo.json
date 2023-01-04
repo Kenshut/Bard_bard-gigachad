@@ -3,7 +3,7 @@
     "type": "MOD_INFO",
     "id": "ks_mod_Bard",
     "name": "Бард Гигачад",
-    "authors": [ "Mrsecretguy1/Kenan" ],
+    "authors": [ "Kenshut" ],
     "description": "в этот мир придет поэт.",
     "category": "content",
     "dependencies": [ "dda" ],
